@@ -1,7 +1,7 @@
 .header {
     font-family: sans-serif;
     font-style: italic;
-    font-color: #0047AB;
+    color: #0047AB;
 }
 .header img {
   float: left;
