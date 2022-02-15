@@ -4,6 +4,7 @@
     color: steelblue;
     text-shadow: 2px 2px #0047AB;
     clear: both;
+    text-indent: 50px;
 }
 .header img {
   float: left;
