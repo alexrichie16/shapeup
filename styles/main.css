@@ -10,6 +10,10 @@
   float: left;
 }
 
+.header2 h1{
+    text-indent: 50px;
+}
+
 .header h1 {
   text-indent: 50px;
 }
