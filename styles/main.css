@@ -10,7 +10,7 @@
 }
 
 .header h1 {
-  position: center;
+  text-indent: 50px;
 }
 .body {
     font-family: sans-serif;
