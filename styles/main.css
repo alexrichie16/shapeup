@@ -39,5 +39,5 @@ aside a:hover, aside a:active {
 }
 .footer {
     font-size: 50%;
-    float: center;
+    text-align: center;
 }
