@@ -24,6 +24,7 @@ section a:hover, section a:active {
 
 aside a:link, aside a:visited {
     color: steelblue;
+    font-style: bold;
 }
 aside a:hover, aside a:active {
     color: maroon;
