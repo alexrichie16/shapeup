@@ -37,7 +37,7 @@ aside a:hover, aside a:active {
     color: maroon;
     line-height:200%
 }
-.footer p{
+footer p{
     font-size: 50%;
     text-align: center;
 }
