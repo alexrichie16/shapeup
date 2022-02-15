@@ -2,6 +2,7 @@
     font-family: sans-serif;
     font-style: italic;
     color: steelblue;
+    text-shadow: 2px 2px #0047AB;
 }
 .header img {
   float: left;
