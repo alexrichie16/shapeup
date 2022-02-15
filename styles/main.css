@@ -13,3 +13,16 @@
 .body {
     font-family: sans-serif;
 }
+section a:link, section a:visited {
+    color: maroon;
+}
+section a:hover, section a:active {
+    color: steelblue;
+}
+
+aside a:link, aside a:visited {
+    color: steelblue;
+}
+aside a:hover, aside a:active {
+    color: maroon;
+}
