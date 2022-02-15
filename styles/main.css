@@ -20,6 +20,10 @@
 .body {
     font-family: sans-serif;
 }
+ul 
+{
+line-height:200%
+{
 section a:link, section a:visited {
     color: maroon;
 }
