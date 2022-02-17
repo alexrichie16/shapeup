@@ -10,16 +10,16 @@ head {
     border-bottom-style: bottom;
     border-color: steelblue;
 }
-.header img {
+.head.header img {
   float: left;
   background-color: white;
 }
 
-.header2 h3{
+.head.header2 h3{
     text-indent: 50px;
 }
 
-.header h1 {
+.head.header h1 {
   text-indent: 50px;
 }
 body {
