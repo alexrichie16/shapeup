@@ -27,7 +27,6 @@ body {
     border-color: steelblue;
     box-shadow: 6px 6px 3px black;
     margin-left: 80px;
-    text-align: center;
 }
 
 section a:link, section a:visited {
