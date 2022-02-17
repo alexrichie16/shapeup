@@ -1,5 +1,4 @@
 .header {
-    background-image: linear-gradient(lightsteelblue, white);
     font-family: sans-serif;
     font-style: italic;
     color: steelblue;
@@ -11,6 +10,7 @@
 .header img {
   float: left;
   background-color: white;
+  background-image: linear-gradient(lightsteelblue, white);
 }
 
 .header2 h3{
