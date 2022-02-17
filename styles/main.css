@@ -5,6 +5,7 @@
     text-shadow: steelblue;
     clear: both;
     text-indent: 50px;
+    margin-left: 80px;
 }
 .header img {
   float: left;
@@ -25,6 +26,7 @@ body {
     border-style: solid;
     border-color: steelblue;
     box-shadow: 6px 6px 3px black;
+    margin-left: 80px;
 }
 
 section a:link, section a:visited {
