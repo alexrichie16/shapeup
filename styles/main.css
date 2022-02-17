@@ -1,8 +1,5 @@
-.content {
-  max-width: 500px;
-  margin: auto;
-}
 .header {
+    background-image: linear-gradient(blue, white);
     font-family: sans-serif;
     font-style: italic;
     color: steelblue;
