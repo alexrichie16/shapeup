@@ -23,7 +23,7 @@ body {
     width: 100%;
     border-style: solid;
     border-color: steelblue;
-    box-shadow: black;
+    box-shadow: 50px 50px black;
 }
 
 section a:link, section a:visited {
