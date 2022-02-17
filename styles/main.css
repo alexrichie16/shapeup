@@ -45,4 +45,6 @@ aside a:hover, aside a:active {
 footer p{
     font-size: 75%;
     text-align: center;
+    background: steelblue;
+    text-color: white;
 }
