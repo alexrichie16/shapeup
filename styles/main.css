@@ -24,7 +24,6 @@ body {
     border-style: solid;
     border-color: steelblue;
     box-shadow: 6px 6px 3px black;
-    text-align: center;
 }
 
 section a:link, section a:visited {
@@ -49,4 +48,5 @@ footer p{
     margin-bottom: 0px;
     background: steelblue;
     color: white;
+    text-align: center;
 }
