@@ -19,6 +19,11 @@
 }
 .body {
     font-family: sans-serif;
+    max-width: 1000px;
+    width: 100%;
+    border-style: solid;
+    border-color: steelblue;
+    box-shadow: black;
 }
 
 section a:link, section a:visited {
