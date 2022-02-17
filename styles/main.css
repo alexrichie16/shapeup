@@ -1,5 +1,7 @@
 header{
     background-image: linear-gradient(lightsteelblue, white);
+    border-bottom-style: bottom;
+    border-color: steelblue;
 }
 .header {
     font-family: sans-serif;
