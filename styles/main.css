@@ -8,8 +8,7 @@
 }
 .header img {
   float: left;
-  height: 140px;
-  width: 105px;
+  background-color: white;
 }
 
 .header2 h3{
