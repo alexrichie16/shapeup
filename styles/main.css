@@ -13,7 +13,8 @@ head {
     border-color: steelblue;
     margin-top: 0px;
     margin: 20px;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .header{
     background-image: linear-gradient(white, lightsteelblue);
@@ -21,7 +22,8 @@ head {
     border-bottom: 5px solid steelblue;
     border-top: 5px solid steelblue;
     margin: 20px;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .header img {
@@ -44,7 +46,8 @@ body {
     border-color: steelblue;
     box-shadow: 6px 6px 6px black;
     margin: 20px;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: table-cell;
     vertical-align: middle;
 }
@@ -74,5 +77,6 @@ footer p{
     color: white;
     text-align: center;
     margin: 20px;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
