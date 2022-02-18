@@ -19,6 +19,7 @@ head {
 }
 .sidenav{
     float: left;
+    position: fixed;
 }
 .header{
     background-image: linear-gradient(white ,lightsteelblue, lightsteelblue);
