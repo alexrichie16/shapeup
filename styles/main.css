@@ -20,6 +20,7 @@ head {
 .column{
     float: left;
     width: 50%;
+    height: 100%;
 }
 .column2{
     float: left;
