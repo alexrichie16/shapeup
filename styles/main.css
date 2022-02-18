@@ -46,8 +46,8 @@ body {
     border-color: steelblue;
     box-shadow: 6px 6px 6px black;
     margin: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: table-cell;
     vertical-align: middle;
 }
