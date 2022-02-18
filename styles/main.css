@@ -19,7 +19,11 @@ head {
 }
 .column{
     float: left;
-    width: 50%;
+    width: 250%;
+}
+.column2{
+    float: left;
+    width: 75%;
 }
 .header{
     background-image: linear-gradient(white ,lightsteelblue, lightsteelblue);
