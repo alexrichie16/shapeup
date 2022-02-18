@@ -44,6 +44,7 @@ body {
     border-color: steelblue;
     box-shadow: 6px 6px 6px black;
     margin-left: 15px;
+    display: table-cell;
     vertical-align: middle;
 }
 
