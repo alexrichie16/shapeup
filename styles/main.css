@@ -44,19 +44,27 @@ body {
 
 section a:link, section a:visited {
     color: maroon;
+    margin: 10px;
+    padding: 5px;
 }
 section a:hover, section a:active {
     color: steelblue;
+    margin: 10px;
+    padding: 5px;
 }
 
 aside a:link, aside a:visited {
     color: steelblue;
     font-weight: bold;
     line-height:200%
+        margin: 10px;
+    padding: 5px;
 }
 aside a:hover, aside a:active {
     color: maroon;
     line-height:200%
+    margin: 10px;
+    padding: 5px;
 }
 footer p{
     height: 30px;
@@ -66,4 +74,6 @@ footer p{
     background: steelblue;
     color: white;
     text-align: center;
+    margin: 10px;
+    padding: 5px;
 }
