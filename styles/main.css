@@ -23,6 +23,8 @@ head {
 
 .header h1 {
   text-indent: 50px;
+  color: steelblue;
+  text-style: italic;
 }
 body {
     font-family: sans-serif;
