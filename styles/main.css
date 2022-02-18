@@ -62,19 +62,19 @@ body {
     vertical-align: middle;
 }
 
-section a:link, section a:visited {
+.column2 section a:link, section a:visited {
     color: maroon;
 }
-section a:hover, section a:active {
+.column section a:hover, section a:active {
     color: steelblue;
 }
 
-aside a:link, aside a:visited {
+.column2 aside a:link, aside a:visited {
     color: steelblue;
     font-weight: bold;
     line-height: 200%
 }
-aside a:hover, aside a:active {
+.column aside a:hover, aside a:active {
     color: maroon;
     line-height: 200%
 }
