@@ -20,8 +20,7 @@ head {
     border-bottom: 5px solid steelblue;
     border-top: 5px solid steelblue;
     margin: 10px;
-    padding: 5px;
-    margin-left: 15px;
+    padding: 20px;
 }
 
 .header img {
@@ -44,7 +43,7 @@ body {
     border-color: steelblue;
     box-shadow: 6px 6px 6px black;
     margin: 10px;
-    padding: 15px;
+    padding: 20px;
     display: table-cell;
     vertical-align: middle;
 }
@@ -59,7 +58,7 @@ section a:hover, section a:active {
 aside a:link, aside a:visited {
     color: steelblue;
     font-weight: bold;
-    line-height:200%
+    line-height: 200%
 }
 aside a:hover, aside a:active {
     color: maroon;
@@ -73,5 +72,6 @@ footer p{
     background: steelblue;
     color: white;
     text-align: center;
-    margin-left: 15px;
+    margin: 10px;
+    padding: 20px;
 }
