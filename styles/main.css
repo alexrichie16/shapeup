@@ -6,10 +6,13 @@ head {
     clear: both;
     text-indent: 50px;
     margin-left: 80px;
-    background-image: linear-gradient(lightsteelblue, white);
     border-bottom-style: bottom;
     border-color: steelblue;
 }
+.header{
+    background-image: linear-gradient(lightsteelblue, white);
+}
+
 .header img {
   float: left;
   background-color: white;
