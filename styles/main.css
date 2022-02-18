@@ -12,15 +12,16 @@ head {
     border-bottom-style: bottom;
     border-color: steelblue;
     margin-top: 0px;
-    margin-left: 15px;
+    margin: 20px;
+    padding: 10px;
 }
 .header{
     background-image: linear-gradient(white, lightsteelblue);
     margin-top: 0;
     border-bottom: 5px solid steelblue;
     border-top: 5px solid steelblue;
-    margin: 10px;
-    padding: 20px;
+    margin: 20px;
+    padding: 10px;
 }
 
 .header img {
@@ -42,8 +43,8 @@ body {
     border-style: solid;
     border-color: steelblue;
     box-shadow: 6px 6px 6px black;
-    margin: 10px;
-    padding: 20px;
+    margin: 20px;
+    padding: 10px;
     display: table-cell;
     vertical-align: middle;
 }
@@ -72,6 +73,6 @@ footer p{
     background: steelblue;
     color: white;
     text-align: center;
-    margin: 10px;
-    padding: 20px;
+    margin: 20px;
+    padding: 10px;
 }
