@@ -20,10 +20,12 @@ head {
 .column1 {
   float: left;
   width: 50%;
+  height: 100%;
 }
 .column2 {
   float: right;
   width: 50%;
+  height: 100%;
 }
 .header{
     background-image: linear-gradient(white ,lightsteelblue, lightsteelblue);
