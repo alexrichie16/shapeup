@@ -1,6 +1,5 @@
 head {
     font-family: sans-serif;
-    font-style: italic;
     color: steelblue;
     text-shadow: steelblue;
     clear: both;
@@ -24,7 +23,7 @@ head {
 .header h1 {
   text-indent: 50px;
   color: steelblue;
-  text-style: italic;
+  font-style: italic;
 }
 body {
     font-family: sans-serif;
