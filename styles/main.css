@@ -10,7 +10,7 @@ head {
 }
 .header{
     background-image: linear-gradient(white, lightsteelblue);
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .header img {
