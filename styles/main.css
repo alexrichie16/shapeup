@@ -17,6 +17,9 @@ head {
     padding-left: 30px;
     padding-right: 30px;
 }
+.sidenav{
+    float: left;
+}
 .header{
     background-image: linear-gradient(white ,lightsteelblue, lightsteelblue);
     margin-top: 0;
