@@ -22,6 +22,7 @@ head {
     width: 25%;
 }
 .column2{
+    float: right;
     width: 75%;
 }
 .header{
