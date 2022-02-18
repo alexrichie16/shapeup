@@ -18,7 +18,7 @@ head {
     padding-right: 30px;
 }
 .header{
-    background-image: linear-gradient(white, lightsteelblue);
+    background-image: linear-gradient(white ,lightsteelblue, lightsteelblue);
     margin-top: 0;
     border-bottom: 5px solid steelblue;
     border-top: 5px solid steelblue;
