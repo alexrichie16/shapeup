@@ -38,7 +38,7 @@ head {
 }
 body {
     font-family: sans-serif;
-    max-width: 1000px;
+    max-width: 1500px;
     width: 100%;
     border-style: solid;
     border-color: steelblue;
@@ -60,7 +60,7 @@ aside a:link, aside a:visited {
 }
 aside a:hover, aside a:active {
     color: maroon;
-    line-height:200%
+    line-height: 200%
 }
 footer p{
     height: 30px;
