@@ -12,6 +12,7 @@ head {
 .header{
     background-image: linear-gradient(white, lightsteelblue);
     margin-top: 0;
+    border-bottom: 5px solid steelblue;
 }
 
 .header img {
