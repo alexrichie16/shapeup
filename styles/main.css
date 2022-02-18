@@ -17,14 +17,9 @@ head {
     padding-left: 30px;
     padding-right: 30px;
 }
-.column{
-    float: left;
-    width: 50%;
-    height: 100%;
-}
-.column2{
-    float: left;
-    width: 50%;
+.column {
+  float: left;
+  width: 50%;
 }
 .header{
     background-image: linear-gradient(white ,lightsteelblue, lightsteelblue);
@@ -62,19 +57,19 @@ body {
     vertical-align: middle;
 }
 
-.column2 section a:link, section a:visited {
+section a:link, section a:visited {
     color: maroon;
 }
-.column section a:hover, section a:active {
+section a:hover, section a:active {
     color: steelblue;
 }
 
-.column2 aside a:link, aside a:visited {
+aside a:link, aside a:visited {
     color: steelblue;
     font-weight: bold;
     line-height: 200%
 }
-.column aside a:hover, aside a:active {
+aside a:hover, aside a:active {
     color: maroon;
     line-height: 200%
 }
