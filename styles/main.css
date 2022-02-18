@@ -14,6 +14,8 @@ head {
     margin-top: 0;
     border-bottom: 5px solid steelblue;
     border-top: 5px solid steelblue;
+    margin: 10px;
+    padding: 5px;
 }
 
 .header img {
@@ -36,7 +38,8 @@ body {
     border-style: solid;
     border-color: steelblue;
     box-shadow: 6px 6px 3px black;
-    margin-left: 80px;
+    margin: 10px;
+    padding: 5px;
 }
 
 section a:link, section a:visited {
