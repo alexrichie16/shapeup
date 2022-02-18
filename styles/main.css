@@ -10,7 +10,7 @@ head {
     border-color: steelblue;
 }
 .header{
-    background-image: linear-gradient(white, lightsteelblue);
+    background-image: linear-gradient(white, lightsteelblue, height: 105px);
 }
 
 .header img {
