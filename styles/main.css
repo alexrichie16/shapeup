@@ -8,12 +8,14 @@ html {
     background-color: lightsteelblue;
     display: table;
 }
-
+.clearfix{
+    float: left;
+}
 header {
     border-bottom: 3px solid steelblue;
     background: linear-gradient(white, lightsteelblue);
 }
-.header h3 {
+header h3 {
     font-size: 300%;
     font-style: italic;
     color: steelblue;
