@@ -8,7 +8,6 @@ header {
     background: linear-gradient(white, lightsteelblue);
     width: 100%;
     clear: both;
-    margin: 0 auto;
 }
 img{
     max-width: 100%;
@@ -26,10 +25,10 @@ body {
     font-size: 100%;
     max-width: 1000px;
     width: 100%;
-    margin: 0 auto;
     border: 3px solid steelblue;
     background-color: white;
     box-shadow: 5px 10px 8px 10px #888888;
+    padding: 20px;
 }
 
 section a:link, section a:visited {
