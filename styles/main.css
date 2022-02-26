@@ -2,7 +2,7 @@ html {
     background-color: lightsteelblue;
     display: table;
 }
-.header {
+header {
     border-bottom: 3px solid steelblue;
     background: linear-gradient(white, lightsteelblue);
     width: 100%;
