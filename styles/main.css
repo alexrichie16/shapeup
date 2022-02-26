@@ -19,7 +19,7 @@ html {
   height: 200%;
 }
 
-header logoimage {
+.header logoimage {
   float: left;
 }
 
