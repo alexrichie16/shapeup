@@ -9,7 +9,7 @@ header {
     border-bottom: 3px solid steelblue;
     background: linear-gradient(white, lightsteelblue);
 }
-header h1 {
+header h2 {
     font-size: 300%;
     font-style: italic;
     color: steelblue;
