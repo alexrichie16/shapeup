@@ -14,7 +14,6 @@ html {
     text-shadow: 5px 5px 12px;
 }
 .column1 {
-  float: left;
   width: 30%;
   height: 200%;
 }
@@ -25,7 +24,6 @@ html {
 
 .header h3{
     text-indent: 50px;
-    float: center;
 }
 
 .header h1 {
