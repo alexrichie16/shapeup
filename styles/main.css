@@ -7,7 +7,7 @@ header {
     border-bottom: 3px solid steelblue;
     background: linear-gradient(white, lightsteelblue);
 }
-header h2 {
+header h1 {
     font-size: 300%;
     font-style: italic;
     color: steelblue;
@@ -17,15 +17,6 @@ header h2 {
   float: left;
   width: 30%;
   height: 200%;
-}
-header{
-    background-image: linear-gradient(white ,lightsteelblue, lightsteelblue);
-    margin-top: 0;
-    border-bottom: 5px solid steelblue;
-    border-top: 5px solid steelblue;
-    margin: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 header img {
