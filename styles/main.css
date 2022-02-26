@@ -1,6 +1,7 @@
 html {
     background-color: lightsteelblue;
     display: table;
+    margin: 0 auto;
 }
 header {
     border-bottom: 3px solid steelblue;
