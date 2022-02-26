@@ -9,6 +9,7 @@ header {
     border-bottom: 3px solid steelblue;
     background: linear-gradient(white, lightsteelblue);
     width: 100%;
+    clear: both;
 }
 header h2 {
     font-size: 300%;
