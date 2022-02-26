@@ -28,7 +28,9 @@ body {
     border: 3px solid steelblue;
     background-color: white;
     box-shadow: 5px 10px 8px 10px #888888;
-    padding: 20px;
+}
+p {
+    padding:20px;
 }
 
 section a:link, section a:visited {
