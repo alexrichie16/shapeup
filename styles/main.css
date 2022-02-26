@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 html {
     background-color: lightsteelblue;
     display: table;
@@ -13,17 +24,16 @@ html {
     color: steelblue;
     text-shadow: 5px 5px 12px;
 }
-.column1 {
-  width: 30%;
-  height: 200%;
-}
 
-.header logoimage {
-  float: left;
+.header {
+    border-bottom: 3px solid steelblue;
+    background: linear-gradient(white, lightsteelblue);
 }
-
-.header h3{
-    text-indent: 50px;
+.header h2 {
+    font-size: 300%;
+    font-style: italic;
+    color: steelblue;
+    text-shadow: 5px 5px 12px;
 }
 
 body {
