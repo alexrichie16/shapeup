@@ -22,7 +22,7 @@ head {
   width: 30%;
   height: 200%;
 }
-.header{
+header{
     background-image: linear-gradient(white ,lightsteelblue, lightsteelblue);
     margin-top: 0;
     border-bottom: 5px solid steelblue;
@@ -32,15 +32,15 @@ head {
     padding-right: 30px;
 }
 
-.header img {
+header img {
   float: left;
 }
 
-.header h3{
+header h3{
     text-indent: 50px;
 }
 
-.header h1 {
+header h1 {
   text-indent: 50px;
   font-style: italic;
 }
