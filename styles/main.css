@@ -8,6 +8,7 @@ html {
 header {
     border-bottom: 3px solid steelblue;
     background: linear-gradient(white, lightsteelblue);
+    width: 100%;
 }
 header h2 {
     font-size: 300%;
