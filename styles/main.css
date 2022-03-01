@@ -41,13 +41,20 @@ section a:link, section a:visited {
 section a:hover, section a:active {
     color: steelblue;
 }
-
-aside a:link, aside a:visited {
+.aside{
+    height: 100%;
+    width: 20%;
+}
+.section{
+    height: 100%;
+    width: 80%;
+}
+.aside a:link, .aside a:visited {
     color: steelblue;
     font-weight: bold;
     line-height: 200%
 }
-aside a:hover, aside a:active {
+.aside a:hover, .aside a:active {
     color: maroon;
     line-height: 200%
 }
