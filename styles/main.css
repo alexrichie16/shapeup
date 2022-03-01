@@ -42,13 +42,11 @@ section a:link, section a:visited {
 section a:hover, section a:active {
     color: steelblue;
 }
-aside{
-    height: 100%;
+.aside{
     width: 20%;
     float: left;
 }
-section{
-    height: 100%;
+.section{
     width: 80%;
     float: right;
 }
