@@ -45,11 +45,13 @@ section a:hover, section a:active {
     height: 100%;
     width: 20%;
     position: fixed;
+    float: left;
 }
 .section{
     height: 100%;
     width: 80%;
     position: fixed;
+    float: right;
 }
 .aside a:link, .aside a:visited {
     color: steelblue;
