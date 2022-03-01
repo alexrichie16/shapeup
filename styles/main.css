@@ -44,10 +44,12 @@ section a:hover, section a:active {
 .aside{
     height: 100%;
     width: 20%;
+    position: fixed;
 }
 .section{
     height: 100%;
     width: 80%;
+    position: fixed;
 }
 .aside a:link, .aside a:visited {
     color: steelblue;
