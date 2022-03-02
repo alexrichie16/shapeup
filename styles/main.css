@@ -13,7 +13,7 @@ img{
     max-width: 100%;
     float: left;
 }
-h2 {
+.section h2 {
     font-size: 300%;
     font-style: italic;
     color: steelblue;
