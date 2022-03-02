@@ -13,7 +13,7 @@ img{
     max-width: 100%;
     float: left;
 }
-.section h2 {
+h2 {
     font-size: 300%;
     font-style: italic;
     color: steelblue;
@@ -47,7 +47,7 @@ section a:hover, section a:active {
     float: left;
     padding: 2px;
 }
-.aside h2{
+.aside h3{
     color: maroon;
 }
 .section{
