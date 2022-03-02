@@ -50,8 +50,6 @@ section a:hover, section a:active {
 .section{
     width: 80%;
     float: right;
-    border: 2px inset steelblue;
-
 }
 .aside a:link, .aside a:visited {
     color: steelblue;
