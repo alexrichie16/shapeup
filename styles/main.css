@@ -51,6 +51,7 @@ section a:hover, section a:active {
 .section{
     width: 80%;
     float: right;
+    height: 100%
 }
 .aside a:link, .aside a:visited {
     color: steelblue;
