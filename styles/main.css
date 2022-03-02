@@ -45,7 +45,6 @@ section a:hover, section a:active {
 .aside{
     width: 20%;
     float: left;
-    border: 5px solid steelblue;
 }
 .section{
     width: 80%;
