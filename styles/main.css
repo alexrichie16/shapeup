@@ -68,10 +68,6 @@ text-decoration: none;
 font-color:red;
 }
 
-#main {
-    clear: both;
-}
-
 section a:link, section a:visited {
     color: maroon;
 }
