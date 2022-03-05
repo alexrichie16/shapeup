@@ -36,55 +36,31 @@ body {
     clear: both'
 }
 
-#nav_menu {
-    position: sticky;
-    top: 0;
+#nav_menu{
+    margins: 0;
 }
-.container {
-    display: flex;
-    list-style: none;
-    background-color: steelblue;
-    position: relative;
-    
-}
-.container li {
-    flex: 1;
-}
-.container li a {
-    display: block;
-    padding: .75em 1em;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: background-color .5s;
-}
-.container li a:hover {
-    color: black;
-    background-color: lightsteelblue;
+#nav_menu ul {
+list-style: none;
+text-align: center;
+border-top: 1px solid steelblue;
+border-bottom: 1px solid steelblue;
+background-color: lightsteelblue;
+padding: 10px 0px 0px 10px;
 }
 
-/* flexbox nav menu second tier code */
-.container ul {
-    display: none;
-    background-color: steelblue;
-    width: 20%;
-    list-style: none;
-    position: absolute;
-    top: 100%;
-}
-.container ul li {
-    flex-direction: column;
-   
-}
-.container ul li a {
-    padding-left: 1em;
-    display: block;
-    width: 100%;
-   
-}
-.container li:hover > ul {
-    display: block;
-}
+#nav_menu ul li
+set the display property to "inline"
+set the border-right property to 2px solid black
+set the top and bottom padding 10 10px
+set the padding for both sides to 3em
+give the last li an id="last"
+set the #nav_menu #last border-right property to none "border-right: none;"
+#nav_menu ul li a
+set the font-weight to bold
+set the text-decoration to none
+#nav_menu ul li a:hover
+set the font color property to red
+main - clear the float
 
 section a:link, section a:visited {
     color: maroon;
