@@ -36,6 +36,56 @@ body {
     clear: both'
 }
 
+#nav_menu {
+    position: sticky;
+    top: 0;
+}
+.container {
+    display: flex;
+    list-style: none;
+    background-color: steelblue;
+    position: relative;
+    
+}
+.container li {
+    flex: 1;
+}
+.container li a {
+    display: block;
+    padding: .75em 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color .5s;
+}
+.container li a:hover {
+    color: black;
+    background-color: lightsteelblue;
+}
+
+/* flexbox nav menu second tier code */
+.container ul {
+    display: none;
+    background-color: steelblue;
+    width: 20%;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+}
+.container ul li {
+    flex-direction: column;
+   
+}
+.container ul li a {
+    padding-left: 1em;
+    display: block;
+    width: 100%;
+   
+}
+.container li:hover > ul {
+    display: block;
+}
+
 section a:link, section a:visited {
     color: maroon;
 }
