@@ -49,18 +49,23 @@ padding: 10px 0px 0px 10px;
 }
 
 #nav_menu ul li
-set the display property to "inline"
-set the border-right property to 2px solid black
-set the top and bottom padding 10 10px
-set the padding for both sides to 3em
-give the last li an id="last"
-set the #nav_menu #last border-right property to none "border-right: none;"
+display: inline
+border-right: 2px solid black;
+padding: 10px 3em 3em 10px;
+
+#nav_menu #last 
+border-right: none; 
+
 #nav_menu ul li a
-set the font-weight to bold
-set the text-decoration to none
+font-weight: bold;
+text-decoration: none;
+
 #nav_menu ul li a:hover
-set the font color property to red
-main - clear the float
+font-color:red;
+
+#main{
+    clear: both;
+}
 
 section a:link, section a:visited {
     color: maroon;
