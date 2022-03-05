@@ -39,6 +39,7 @@ body {
 #nav_menu{
     margins: 0;
 }
+
 #nav_menu ul {
 list-style: none;
 text-align: center;
@@ -48,22 +49,26 @@ background-color: lightsteelblue;
 padding: 10px 0px 0px 10px;
 }
 
-#nav_menu ul li
+#nav_menu ul li{
 display: inline
 border-right: 2px solid black;
 padding: 10px 3em 3em 10px;
+}
 
-#nav_menu #last 
+#nav_menu #last {
 border-right: none; 
+}
 
-#nav_menu ul li a
+#nav_menu ul li a {
 font-weight: bold;
 text-decoration: none;
+}
 
-#nav_menu ul li a:hover
+#nav_menu ul li a:hover {
 font-color:red;
+}
 
-#main{
+#main {
     clear: both;
 }
 
