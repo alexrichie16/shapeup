@@ -48,7 +48,7 @@ background-color: lightsteelblue;
 padding: 10px 0px 0px 10px;
 }
 #nav_menu li {
-    display: flex;
+    display: inline;
     border-right: 2px solid black;
     padding: 10px 3em 3em 10px;
 }
