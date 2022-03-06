@@ -36,7 +36,6 @@ body {
     clear: both;
 }
 #nav_menu {
-    position: sticky;
     top: 0;
 }
 .container {
@@ -84,6 +83,7 @@ body {
 }
 #nav_list {
     clear: both;
+    float: left;
 }
 #nav_list h2 {
     margin-bottom: 5px;
