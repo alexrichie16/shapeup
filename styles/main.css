@@ -47,7 +47,7 @@ border-bottom: 1px solid steelblue;
 background-color: lightsteelblue;
 padding: 10px 0px 0px 10px;
 }
-.container ul li {
+#nav_menu ul li {
     display: inline;
     border-right: 2px solid black;
     padding: 10px 3em 3em 10px;
@@ -55,7 +55,7 @@ padding: 10px 0px 0px 10px;
 #nav_menu #last{
     border-right: none;
 }
-.container li a:hover {
+#nav_menu li a:hover {
     color: red;
 }
 
