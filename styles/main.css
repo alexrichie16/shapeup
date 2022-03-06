@@ -61,8 +61,6 @@ body {
     color: black;
     background-color: lightsteelblue;
 }
-
-/* flexbox nav menu second tier code */
 .container ul {
     display: none;
     background-color: steelblue;
@@ -84,29 +82,32 @@ body {
 .container li:hover > ul {
     display: block;
 }
-
-#nav_list h3 { 
-    margin: 5px;
+#nav_list h2 {
+    margin-bottom: 5px;
     text-align: center;
 }
 #nav_list ul {
     list-style: none;
 }
 #nav_list ul li {
-width: 90%
-margin: 0 auto auto 0.5em;
+    width: 100%;
+    margin: 0 auto .5em;
+    
 }
 #nav_list ul li a {
-display: block;
-font-weight: bold;
-text-decoration: nonel
-background-color: lightsteelblue;
-padding: .5em 0 .5em .5em;
-color: black;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: lightsteelblue;
+    padding: .5em 0 .5em .5em;
+    color: black;
+    border-radius: 25px;
+    transition: all 1s; 
 }
-#nav_list ul li a:hover{
-background-color: steelblue;
-color: white
+#nav_list ul li a:hover {
+    color: white;
+    background-color: steelblue;
+    padding: .5em 0 .5em 1.5em;
 }
 
 main {
