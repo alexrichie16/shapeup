@@ -50,30 +50,16 @@ padding: 10px 0px 0px 10px;
     display: inline;
     border-right: 2px solid black;
     padding: 10px 3em 3em 10px;
+    
+    #last{
+       border-right: none;
+    }
 }
 #nav_menu li a:hover {
-    color: black;
-    background-color: lightsteelblue;
-}
-#nav_menu ul {
-    display: none;
-    background-color: steelblue;
-    width: 20%;
-    list-style: none;
-
+    color: red;
 }
 #nav_menu ul li {
     flex-direction: column;
-   
-}
-#nav_menu ul li a {
-    padding-left: 1em;
-    display: block;
-    width: 100%;
-   
-}
-#nav_menu li:hover {
-    display: block;
 }
 #nav_list {
     clear: both;
