@@ -82,7 +82,7 @@ padding: 10px 0px 0px 10px;
 #nav_list ul li a:hover {
     color: white;
     background-color: steelblue;
-    padding: .5em 0 .5em 1.5em;
+    padding: .5em 0 .5em .5em;
 }
 
 main {
