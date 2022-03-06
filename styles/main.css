@@ -49,6 +49,8 @@ padding: 10px 0px 0px 10px;
 }
 #nav_menu .container ul li {
     display: inline;
+    height: 100%;
+    width: 20%;
 }
 #nav_menu .container li a:hover {
     color: red;
