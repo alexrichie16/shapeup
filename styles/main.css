@@ -50,10 +50,6 @@ padding: 10px 0px 0px 10px;
 #nav_menu .container li {
     display: inline;
 }
-#nav_menu .container ul li {
-    height: 100%;
-    width: 20%;
-}
 #nav_menu .container ul li a:hover {
     color: red;
 }
