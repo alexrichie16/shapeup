@@ -50,7 +50,7 @@ padding: 10px 0px 0px 10px;
 #nav_menu .container ul .content #last{
     border-right: none;
 }
-#nav_menu .container li a {
+#nav_menu .container ul li {
     display: block;
 }
 #nav_menu .container li a:hover {
