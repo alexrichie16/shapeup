@@ -47,10 +47,10 @@ border-bottom: 1px solid steelblue;
 background-color: lightsteelblue;
 padding: 10px 0px 0px 10px;
 }
-#nav_menu #content #last{
+#nav_menu .container #content #last{
     border-right: none;
 }
-#nav_menu #content li a{
+#nav_menu .container #content li a{
     display: none;
     
 }
@@ -61,8 +61,8 @@ padding: 10px 0px 0px 10px;
     color: red;
     
 }
-#li:hover #content {display: block;}
-#nav_menu #content li a:hover {
+#li:hover .container #content {display: block;}
+#nav_menu .container #content li a:hover {
     display: block;
     border-right: 2px solid black;
     padding: 10px 3em 3em 10px;
