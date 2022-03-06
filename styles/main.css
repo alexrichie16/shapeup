@@ -47,24 +47,23 @@ border-bottom: 1px solid steelblue;
 background-color: lightsteelblue;
 padding: 10px 0px 0px 10px;
 }
-#nav_menu li {
-    display: inline-block;
-    border-right: 2px solid black;
-    padding: 10px 3em 3em 10px;
-}
 #nav_menu #last{
     border-right: none;
 }
 #nav_menu #content li a{
-    font-weight: bold;
-    text-decoration: none;
     display: none;
     
 }
 #nav_menu li a:hover {
     color: red;
-    display: block;
+    
 }
+#nav_menu #content li a:hover {
+    display: block;
+    border-right: 2px solid black;
+    padding: 10px 3em 3em 10px;
+    font-weight: bold;
+    text-decoration: none;
 
 
 #nav_list {
