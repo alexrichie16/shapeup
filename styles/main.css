@@ -79,8 +79,11 @@ body {
     width: 100%;
    
 }
-.container li:hover > ul {
+.container li:hover {
     display: block;
+}
+#nav_list {
+    clear: both;
 }
 #nav_list h2 {
     margin-bottom: 5px;
