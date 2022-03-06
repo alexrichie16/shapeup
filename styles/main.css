@@ -55,6 +55,10 @@ padding: 10px 0px 0px 10px;
 #nav_menu #last{
     border-right: none;
 }
+#nav_menu ul li a{
+    font-weight: bold;
+    text-decoration: none;
+}
 #nav_menu li a:hover {
     color: red;
 }
