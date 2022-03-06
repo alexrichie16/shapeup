@@ -54,10 +54,10 @@ padding: 10px 0px 0px 10px;
     display: none;
     
 }
-#nav_menu li a {
+#nav_menu .container li a {
     display: inline-block;
 }
-#nav_menu li a:hover {
+#nav_menu .container li a:hover {
     color: red;
     
 }
