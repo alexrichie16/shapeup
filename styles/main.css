@@ -36,6 +36,19 @@ body {
     clear: both;
 }
 
+#nav_menu{
+    margin: 0;
+}
+
+#nav_menu ul{
+list-style: none;
+text-align: center;
+border-top: 1px solid steelblue;
+border-botton: 1px solid steelblue;
+background-color: lightsteelblue;
+padding: 10px 0px 0px 10px;
+}
+
 main {
     clear: both;
 }
