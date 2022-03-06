@@ -59,6 +59,11 @@ padding: 10px 0px 0px 10px;
     color: red;
 }
 
+#nav_list {
+    width: 20%;
+    float: left;
+}
+
 #nav_list h2 {
     text-align: center;
     margin-bottom: 2px;
