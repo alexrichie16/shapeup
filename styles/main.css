@@ -36,50 +36,6 @@ body {
     clear: both;
 }
 
-#nav_menu{
-    margin: 0;
-    position: sticky;
-    top: 0;
-    display: flex;
-    list-style: none;
-    background-color: steelblue;
-    position: relative;
-    
-}
-#nav_menu li {
-    flex: 1;
-}
-#nav_menu li a {
-    display: block;
-    padding: .75em 1em;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: background-color .5s;
-}
-#nav_menu li a:hover {
-    color: black;
-    background-color: lightsteelblue;
-}
-
-.#nav_menu ul {
-    display: none;
-    background-color: steelblue;
-    width: 20%;
-    list-style: none;
-    position: absolute;
-    top: 100%;
-}
-#nav_menu ul li {
-    flex-direction: column; 
-}
-#nav_menu ul li a {
-    padding-left: 1em;
-    display: block;
-    width: 100%;
-   
-}
-
 main {
     clear: both;
 }
