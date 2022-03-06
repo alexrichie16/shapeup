@@ -52,7 +52,7 @@ padding: 10px 0px 0px 10px;
     height: 100%;
     width: 20%;
 }
-#nav_menu .container li a:hover {
+#nav_menu .container ul li a:hover {
     color: red;
 }
 #nav_menu .container ul .content li a {
