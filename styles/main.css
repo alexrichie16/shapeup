@@ -35,37 +35,54 @@ body {
     padding: 20px;
     clear: both;
 }
-
-#nav_menu{
-    margin: 0;
+#nav_menu {
+    position: sticky;
+    top: 0;
+}
+.container {
+    display: flex;
+    list-style: none;
+    background-color: steelblue;
+    position: relative;
+    
+}
+.container li {
+    flex: 1;
+}
+.container li a {
+    display: block;
+    padding: .75em 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color .5s;
+}
+.container li a:hover {
+    color: black;
+    background-color: lightsteelblue;
 }
 
-#nav_menu ul{
-list-style: none;
-text-align: center;
-border-top: 1px solid steelblue;
-border-bottom: 1px solid steelblue;
-background-color: lightsteelblue;
-padding: 10px 0px 0px 10px;
+/* flexbox nav menu second tier code */
+.container ul {
+    display: none;
+    background-color: steelblue;
+    width: 20%;
+    list-style: none;
+    position: absolute;
+    top: 100%;
 }
-
-#nav_menu ul li{
-display: inline;
-border-right: 2px solid black;
-padding: 10px 3em 3em 10px;
+.container ul li {
+    flex-direction: column;
+   
 }
-
-#nav_menu #last{
-border-right: none;
+.container ul li a {
+    padding-left: 1em;
+    display: block;
+    width: 100%;
+   
 }
-
-#nav_menu ul li a{
-font-weight: bold;
-text-decoration: none;
-}
-
-#nav_menu ul li a:hover{
-color: red;
+.container li:hover > ul {
+    display: block;
 }
 
 #nav_list h3 { 
