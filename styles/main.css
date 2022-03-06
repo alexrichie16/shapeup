@@ -61,6 +61,7 @@ padding: 10px 0px 0px 10px;
     color: red;
     
 }
+#li:hover #content {display: block;}
 #nav_menu #content li a:hover {
     display: block;
     border-right: 2px solid black;
