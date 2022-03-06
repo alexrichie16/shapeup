@@ -49,7 +49,6 @@ padding: 10px 0px 0px 10px;
 }
 #nav_menu li {
     display: inline;
-    width: 20%;
     border-right: 2px solid black;
     padding: 10px 3em 3em 10px;
 }
@@ -59,6 +58,7 @@ padding: 10px 0px 0px 10px;
 #nav_menu li a{
     font-weight: bold;
     text-decoration: none;
+    width: 20%;
 }
 #nav_menu li a:hover {
     color: red;
