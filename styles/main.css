@@ -60,6 +60,7 @@ padding: 10px 0px 0px 10px;
 }
 #nav_menu .container ul .content {
     display: none;
+    position: absolute;
 }
 #nav_menu .container ul:hover .content li {
     display: block;
