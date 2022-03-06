@@ -38,45 +38,45 @@ body {
 #nav_menu {
     top: 0;
 }
-.container {
+#nav_menu {
     display: flex;
     list-style: none;
     background-color: steelblue;
     position: relative;
     
 }
-.container li {
+#nav_menu li {
     flex: 1;
 }
-.container li a {
+#nav_menu li a {
     display: block;
     padding: .75em 1em;
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-.container li a:hover {
+#nav_menu li a:hover {
     color: black;
     background-color: lightsteelblue;
 }
-.container ul {
+#nav_menu ul {
     display: none;
     background-color: steelblue;
     width: 20%;
     list-style: none;
 
 }
-.container ul li {
+#nav_menu ul li {
     flex-direction: column;
    
 }
-.container ul li a {
+#nav_menu ul li a {
     padding-left: 1em;
     display: block;
     width: 100%;
    
 }
-.container li:hover {
+#nav_menu li:hover {
     display: block;
 }
 #nav_list {
