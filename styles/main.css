@@ -79,7 +79,7 @@ color: red;
 width: 90%
 margin: 0 auto auto 0.5em;
 }
-#nav_list ul li a 
+#nav_list ul li a {
 display: block;
 font-weight: bold;
 text-decoration: nonel
