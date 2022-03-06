@@ -56,7 +56,16 @@ padding: 10px 3em 3em 10px;
 }
 
 #nav_menu #last{
-    border-right: none;
+border-right: none;
+}
+
+#nav_menu ul li a{
+font-weight: bold;
+text-decoration: none;
+}
+
+#nav_menu ul li a:hover{
+color: red;
 }
 
 main {
