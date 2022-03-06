@@ -68,6 +68,30 @@ text-decoration: none;
 color: red;
 }
 
+#nav_list h3 { 
+    margin: 5px;
+    text-align: center;
+}
+#nav_list ul {
+    list-style: none;
+}
+#nav_list ul li {
+width: 90%
+margin: 0 auto auto 0.5em;
+}
+#nav_list ul li a 
+display: block;
+font-weight: bold;
+text-decoration: nonel
+background-color: lightsteelblue;
+padding: .5em 0 .5em .5em;
+color: black;
+}
+#nav_list ul li a:hover{
+background-color: steelblue;
+color: white
+}
+
 main {
     clear: both;
 }
