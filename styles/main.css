@@ -55,6 +55,9 @@ padding: 10px 0px 0px 10px;
     
 }
 #nav_menu li a:hover {
+    display: inline-block;
+}
+#nav_menu li a:hover {
     color: red;
     
 }
