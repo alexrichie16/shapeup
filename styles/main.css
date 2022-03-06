@@ -47,7 +47,7 @@ border-bottom: 1px solid steelblue;
 background-color: lightsteelblue;
 padding: 10px 0px 0px 10px;
 }
-#nav_menu #last{
+#nav_menu #content #last{
     border-right: none;
 }
 #nav_menu #content li a{
