@@ -103,8 +103,7 @@ width: 13.5%;
     text-align: center;
     margin-bottom: 2px;
     color: maroon;
-    margin: 0 auto .5em;
-    float: left;
+    margin: 0 auto auto .5em;
 }
 
 #nav_list ul {
