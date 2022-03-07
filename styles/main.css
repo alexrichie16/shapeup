@@ -39,7 +39,7 @@ body {
 #nav_menu {
     margin: 0;
 }
-#nav_menu .container {
+.container {
 list-style: none;
 border-top: 1px solid steelblue;
 border-bottom: 1px solid steelblue;
@@ -47,7 +47,8 @@ background-color: lightsteelblue;
 padding: 10px 0px 0px 10px;
 position: relative;
 }
-#nav_menu .container li {
+
+    .container li {
     display: inline-block;
     border-right: 2px solid black;
     padding: 10px 3em 3em 10px;
@@ -55,17 +56,20 @@ position: relative;
     text-decoration: none;
     text-align: center;
 }
-#nav_menu .container li a:hover {
+
+.container li a:hover {
     color: red
 }
-#nav_menu .container .content li a:hover {
+
+.container .content li a:hover {
     color: red;
 }
-#nav_menu .container .content li {
+
+.container .content li {
     display: none;
     position: absolute;
 }
-#nav_menu .container li:hover .content li {
+.container li:hover .content li {
     display: block;
     background-color: lightsteelblue;
     border-right: 2px solid black;
@@ -73,7 +77,7 @@ position: relative;
     font-weight: bold;
     text-decoration: none;
 }
-#nav_menu .container .content li #last{
+.container .content li #last{
     border-right: none;
 }
 
