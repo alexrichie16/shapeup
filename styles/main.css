@@ -67,7 +67,7 @@ position: relative;
 
 .container .content li {
     display: none;
-    position: absolute;
+    position: inherit;
 }
 .container li:hover .content li {
     display: block;
