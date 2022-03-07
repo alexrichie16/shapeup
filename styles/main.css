@@ -48,13 +48,13 @@ padding: 10px 0px 0px 10px;
 position: relative;
 }
 
-    .container li {
-    display: inline-block;
-    border-right: 2px solid black;
-    padding: 10px 3em 3em 10px;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
+.container li {
+display: inline-block;
+border-right: 2px solid black;
+padding: 10px 3em 3em 10px;
+font-weight: bold;
+text-decoration: none;
+text-align: center;
 }
 
 .container li a:hover {
@@ -76,6 +76,8 @@ position: relative;
     padding: 10px 3em 3em 10px;
     font-weight: bold;
     text-decoration: none;
+    border-top: 1px solid steelblue;
+    border-bottom: 1px solid steelblue;
 }
 .container .content li #last{
     border-right: none;
