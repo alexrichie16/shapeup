@@ -40,7 +40,7 @@ body {
     margin: 0;
     width: 100%;
 }
-.container {
+#nav_menu ul {
 list-style: none;
 border-top: 1px solid steelblue;
 border-bottom: 1px solid steelblue;
@@ -50,7 +50,7 @@ position: relative;
 width: 100%;
 }
 
-.container li {
+#nav_menu ul li {
 display: inline-block;
 border-right: 2px solid black;
 padding: 10px 3em 3em 10px;
@@ -61,23 +61,23 @@ width: 20%;
 float: left;
 }
 
-.container ul{
+#nav_menu ul ul{
     position: absolute;
 }
 
-.container li a:hover {
+#nav_menu ul li a:hover {
     color: red;
 }
 
-.container .content .archive a:hover {
+#nav_menu ul .content .archive a:hover {
     color: red;
 }
 
-.container .content li {
+#nav_menu ul .content li {
     display: none;
     position: inherit;
 }
-.container .archive:hover .content li {
+#nav_menu ul .archive:hover .content li {
     display: block;
     background-color: lightsteelblue;
     border-right: 2px solid black;
