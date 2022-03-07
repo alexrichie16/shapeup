@@ -38,6 +38,7 @@ body {
 }
 #nav_menu {
     margin: 0;
+    width: 100%;
 }
 .container {
 list-style: none;
@@ -46,6 +47,7 @@ border-bottom: 1px solid steelblue;
 background-color: lightsteelblue;
 padding: 10px 0px 0px 10px;
 position: relative;
+width: 100%;
 }
 
 .container li {
