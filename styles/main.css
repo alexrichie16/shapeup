@@ -61,15 +61,19 @@ text-align: center;
     color: red
 }
 
-.container .content li a:hover {
+.container .content .archive a:hover {
     color: red;
+}
+
+.container li:hover{
+    border-right: none;
 }
 
 .container .content li {
     display: none;
     position: inherit;
 }
-.container li:hover .content li {
+.container .archive:hover .content li {
     display: block;
     background-color: lightsteelblue;
     border-right: 2px solid black;
@@ -79,7 +83,7 @@ text-align: center;
     border-top: 1px solid steelblue;
     border-bottom: 1px solid steelblue;
 }
-.container .content li #last{
+.container .content #last{
     border-right: none;
 }
 
