@@ -57,6 +57,11 @@ text-decoration: none;
 text-align: center;
 }
 
+.container ul{
+    position: absolute;
+    width: 20%;
+}
+
 .container li a:hover {
     color: red
 }
