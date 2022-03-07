@@ -91,7 +91,7 @@ width: 13.5%;
     border-bottom: 1px solid steelblue;
     position: relative;
 }
-.container .content #last{
+.container #last{
     border-right: none;
 }
 
