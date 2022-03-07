@@ -63,6 +63,9 @@ float: left;
 
 #nav_menu ul ul{
     position: absolute;
+    display: none;
+    top: 100%;
+    width: 100%;
 }
 
 #nav_menu ul li a {
