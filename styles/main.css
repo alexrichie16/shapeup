@@ -65,7 +65,7 @@ text-align: center;
     color: red;
 }
 
-.container li:hover{
+.container .archive:hover{
     border-right: none;
 }
 
