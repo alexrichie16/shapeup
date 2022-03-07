@@ -85,10 +85,9 @@ float: left;
 }
 
 #nav_menu ul .content li {
-    display: none;
-    position: inherit;
+    float: none;
 }
-#nav_menu ul .archive:hover .content li {
+#nav_menu ul ul:hover .content li {
     display: block;
     background-color: lightsteelblue;
     border-right: 2px solid black;
