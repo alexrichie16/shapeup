@@ -49,6 +49,10 @@ position: relative;
 width: 100%;
 }
 
+#nav_menu ul li:hover {
+background-color: lightsteelblue;
+}
+
 #nav_menu ul li {
 display: inline;
 border-right: 2px solid black;
