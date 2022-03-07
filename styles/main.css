@@ -35,117 +35,70 @@ body {
     clear: both;
 }
 #nav_menu {
-    margin: 0;
+    border-bottom: 2px solid steelblue;
 }
 #nav_menu ul {
-list-style: none;
-padding: 10px 0px 0px 10px;
-position: relative;
-border-top: 1px solid steelblue;
-border-bottom: 1px solid steelblue;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative; /* must declare position of parent element in order to successfully position child elements */
 }
-
-#nav_menu ul li:hover {
-background-color: lightsteelblue;
-}
-
 #nav_menu ul li {
-display: inline;
-border-right: 2px solid black;
-padding: 10px 3em 3em 10px;
-font-weight: bold;
-text-decoration: none;
-text-align: center;
-width: 20%;
-float: left;
+    float: left; /* float each list item to the left to get the items to display horizontally */
+    width: 20%; /* each list item takes up 1/5 of the body width */
 }
-
-#nav_menu ul ul{
-    position: absolute;
-    display: none;
-    top: 100%;
-    width: 100%;
-}
-
 #nav_menu ul li a {
+    display: block; /* allows the link to occupy the entire parent element - the li */
     text-align: center;
-    display: block;
-    padding: 0.7em 0 0 0.7em;
+    padding: .7em 0;
     background-color: steelblue;
     font-weight: bold;
     color: white;
-}
-
-#nav_menu ul li a:hover {
-    color: red;
-}
-
-#nav_menu ul .content .archive a:hover {
-    color: red;
-}
-
-#nav_menu ul .content li {
-    float: none;
-}
-#nav_menu ul ul:hover .content li {
-    display: block;
-    background-color: lightsteelblue;
-    border-right: 2px solid black;
-    padding: 10px 3em 3em 10px;
-    font-weight: bold;
     text-decoration: none;
-    border-top: 1px solid steelblue;
-    border-bottom: 1px solid steelblue;
-    position: relative;
-    text-align: center;
-    width: 13.8%;
 }
-.container #last{
-    border-right: none;
+#nav_menu ul ul { /* using decendency to target the second tier of the menu - the nested ul's */
+    display: none; /* only disply when an end user hovers, otherwise it must be hidden */
+    position: absolute; /* position within the parent ul element */
+    top: 100%; /* position 100% from the top edge of the parent element */
+    width: 100%;
 }
-#nav_menu ul li:hover > ul{
+#nav_menu ul ul li {
+    float: none; /* uses decendency to target the second tier menu, which must not float so that it displays vertically */
+}
+#nav_menu ul li:hover > ul { /* using the ">" child combinator to specify the child ul element of the emement that is currently being hovered */
+    display: block; /* when the parent element his hovered, display the child element - the second tier of the menu */
+}
+#nav_menu > ul::after { /* necessary code to help get the positioning of the submenu to behave correctly */
+    content: "";
+    clear: both;
     display: block;
 }
-#nav_menu > ul::after {
-content: "";
-clear: both;
-display: block;
+#nav_menu ul li a:hover, #nav_menu ul li a:focus { /* change background color to light steel blue when hovered */
+    background-color: lightsteelblue;
 }
-
-#nav_list {
-    width: 30%;
-    float: left;
-}
-
-#nav_list h3 {
+/* Vertical Nav List in Left Aside */
+#nav_list h2 {
+    margin-bottom: 5px;
     text-align: center;
-    margin-bottom: 2px;
-    color: maroon;
-    margin: 0 auto auto .5em;
 }
-
 #nav_list ul {
     list-style: none;
-    float: left;
 }
 #nav_list ul li {
-    width: 90%;
-    margin: 0 auto auto .5em;
-    float: left;
+    width: 100%;
+    margin: 0 auto .5em; /* 1st value top; middle value sides; 3rd value bottom */
 
 }
 #nav_list ul li a {
     display: block;
-    font-weight: bold;
-    text-decoration: none;
     background-color: lightsteelblue;
     padding: .5em 0 .5em .5em;
     color: black;
+    border-radius: 25px;
 }
 #nav_list ul li a:hover {
     color: white;
     background-color: steelblue;
-    padding: .5em 0 .5em .5em;
 }
 
 main {
