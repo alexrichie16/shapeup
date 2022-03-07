@@ -38,7 +38,6 @@ body {
 }
 #nav_menu {
     margin: 0;
-    width: 100%;
 }
 .container {
 list-style: none;
@@ -48,6 +47,7 @@ background-color: lightsteelblue;
 padding: 10px 0px 0px 10px;
 position: relative;
 height: 15%;
+width: 100%;
 }
 
 .container li {
