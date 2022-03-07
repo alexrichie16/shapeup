@@ -75,6 +75,7 @@ width: 13.5%;
     display: none;
     position: inherit;
     float: left;
+    clear: left;
 }
 .container .archive:hover .content li {
     display: block;
