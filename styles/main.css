@@ -73,8 +73,6 @@ text-align: center;
 .container .content li {
     display: none;
     position: inherit;
-    float: left;
-    clear: left;
 }
 .container .archive:hover .content li {
     display: block;
