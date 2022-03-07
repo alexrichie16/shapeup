@@ -50,7 +50,7 @@ width: 100%;
 }
 
 #nav_menu ul li {
-display: inline-block;
+display: inline;
 border-right: 2px solid black;
 padding: 10px 3em 3em 10px;
 font-weight: bold;
