@@ -109,6 +109,7 @@ width: 13.5%;
 
 #nav_list ul {
     list-style: none;
+    float: left;
 }
 #nav_list ul li {
     width: 90%;
