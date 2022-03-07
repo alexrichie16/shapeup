@@ -111,7 +111,7 @@ width: 13.5%;
 }
 #nav_list ul li {
     width: 90%;
-    margin: 0 auto .5em;
+    margin: 0 auto auto .5em;
     
 }
 #nav_list ul li a {
