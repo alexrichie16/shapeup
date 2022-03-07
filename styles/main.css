@@ -104,6 +104,7 @@ width: 13.5%;
     margin-bottom: 2px;
     color: maroon;
     margin: 0 auto .5em;
+    float: left;
 }
 
 #nav_list ul {
@@ -112,6 +113,7 @@ width: 13.5%;
 #nav_list ul li {
     width: 90%;
     margin: 0 auto auto .5em;
+    float: left;
     
 }
 #nav_list ul li a {
