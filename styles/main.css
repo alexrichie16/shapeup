@@ -62,7 +62,6 @@ padding: 10px 0px 0px 10px;
 }
 #nav_menu .container .content li a {
     display: none;
-    position: absolute;
 }
 #nav_menu .container .content:hover li {
     display: block;
