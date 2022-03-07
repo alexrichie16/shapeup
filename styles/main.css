@@ -53,7 +53,6 @@ padding: 10px 0px 0px 10px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-    height: 100%;
 }
 #nav_menu .container li a:hover {
     color: red
@@ -74,7 +73,6 @@ padding: 10px 0px 0px 10px;
     text-decoration: none;
     float: left;
     clear: left;
-    position: absolute;
 }
 #nav_menu .container .content li #last{
     border-right: none;
