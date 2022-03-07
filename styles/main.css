@@ -42,6 +42,8 @@ body {
 list-style: none;
 padding: 10px 0px 0px 10px;
 position: relative;
+border-top: 1px solid steelblue;
+border-bottom: 1px solid steelblue;
 }
 
 #nav_menu ul li:hover {
@@ -52,8 +54,6 @@ background-color: lightsteelblue;
 display: inline;
 border-right: 2px solid black;
 padding: 10px 3em 3em 10px;
-border-top: 1px solid steelblue;
-border-bottom: 1px solid steelblue;
 font-weight: bold;
 text-decoration: none;
 text-align: center;
