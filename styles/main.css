@@ -48,7 +48,7 @@ background-color: lightsteelblue;
 padding: 10px 0px 0px 10px;
 }
 #nav_menu .container li {
-    display: inline;
+    display: inline-block;
     height: 100%;
     width: auto;
 }
