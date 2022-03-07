@@ -38,6 +38,7 @@ body {
 }
 #nav_menu {
     margin: 0;
+    width: 100%;
 }
 .container {
 list-style: none;
@@ -56,7 +57,7 @@ padding: 10px 3em 3em 10px;
 font-weight: bold;
 text-decoration: none;
 text-align: center;
-width: 13.5%;
+width: 20%;
 }
 
 .container ul{
