@@ -73,7 +73,7 @@ text-align: center;
     display: none;
     position: inherit;
 }
-.container .archive:hover .content li {
+.container .archive:hover .content li a{
     display: block;
     background-color: lightsteelblue;
     border-right: 2px solid black;
