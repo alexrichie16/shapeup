@@ -71,10 +71,6 @@ width: 13.5%;
     color: red;
 }
 
-.container .archive:hover{
-    border-right: none;
-}
-
 .container .content li {
     display: none;
     position: inherit;
