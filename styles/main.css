@@ -87,6 +87,7 @@ width: 13%;
     border-bottom: 1px solid steelblue;
     position: relative;
     text-align: center;
+    width: 13%;
 }
 .container #last{
     border-right: none;
