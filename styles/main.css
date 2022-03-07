@@ -58,11 +58,11 @@ padding: 10px 0px 0px 10px;
 #nav_menu .container ul li a:hover {
     color: red;
 }
-#nav_menu .container ul .content li a {
+#nav_menu .container ul .content:hover li a {
     display: none;
     position: absolute;
 }
-#nav_menu .container ul:hover .content li {
+#nav_menu .container ul .content:hover li {
     display: block;
     border-right: 2px solid black;
     padding: 10px 3em 3em 10px;
