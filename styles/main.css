@@ -55,21 +55,21 @@ padding: 10px 0px 0px 10px;
 #nav_menu .container li a:hover {
     color: red
 }
-#nav_menu .container li ul li a:hover {
+#nav_menu .container .content li a:hover {
     color: red;
 }
-#nav_menu .container li ul .content:hover li a {
+#nav_menu .container .content:hover li a {
     display: none;
     position: absolute;
 }
-#nav_menu .container li ul .content:hover li {
+#nav_menu .container .content:hover li {
     display: block;
     border-right: 2px solid black;
     padding: 10px 3em 3em 10px;
     font-weight: bold;
     text-decoration: none;
 }
-#nav_menu .container li ul .content li #last{
+#nav_menu .container .content li #last{
     border-right: none;
 }
 
