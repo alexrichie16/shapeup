@@ -103,6 +103,9 @@ float: left;
 .container #last{
     border-right: none;
 }
+#nav_menu ul li:hover > ul{
+    display: block;
+}
 
 
 #nav_list {
