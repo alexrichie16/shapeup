@@ -56,7 +56,7 @@ padding: 10px 3em 3em 10px;
 font-weight: bold;
 text-decoration: none;
 text-align: center;
-    width: 20%;
+width: 20%;
 }
 
 .container ul{
@@ -64,7 +64,7 @@ text-align: center;
 }
 
 .container li a:hover {
-    color: red
+    color: red;
 }
 
 .container .content .archive a:hover {
