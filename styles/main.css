@@ -73,6 +73,7 @@ padding: 10px 0px 0px 10px;
     text-decoration: none;
     float: left;
     clear: left;
+    position: absolute;
 }
 #nav_menu .container .content li #last{
     border-right: none;
