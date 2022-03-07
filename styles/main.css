@@ -58,6 +58,7 @@ font-weight: bold;
 text-decoration: none;
 text-align: center;
 width: 13.5%;
+float: left;
 }
 
 .container ul{
