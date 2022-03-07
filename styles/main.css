@@ -80,6 +80,7 @@ body {
 #nav_list h2 {
     margin-bottom: 5px;
     text-align: center;
+    color: maroon;
 }
 #nav_list ul {
     list-style: none;
