@@ -61,7 +61,7 @@ padding: 10px 0px 0px 10px;
 #nav_menu .container .content li a:hover {
     color: red;
 }
-#nav_menu .container .content:active li {
+#nav_menu .container .content li {
     display: none;
 }
 #nav_menu .container .content:hover li {
