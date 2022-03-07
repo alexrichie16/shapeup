@@ -41,7 +41,6 @@ body {
 }
 #nav_menu .container {
 list-style: none;
-text-align: center;
 border-top: 1px solid steelblue;
 border-bottom: 1px solid steelblue;
 background-color: lightsteelblue;
@@ -54,6 +53,7 @@ padding: 10px 0px 0px 10px;
     font-weight: bold;
     text-decoration: none;
     float: left;
+    text-align: center;
 }
 #nav_menu .container li a:hover {
     color: red
