@@ -77,7 +77,6 @@ body {
     background-color: lightsteelblue;
 }
 #nav_list {
-    width: 20%;
     float: left;
 }
 #nav_list h2 {
@@ -123,11 +122,9 @@ aside h3 {
     color: maroon;
     text-align: center;
 }
-#sidebar{
-    float: left;
-}
 #rightaside{
     float: right;
+    width: 40%;
 }
 .section{
     width: 40%;
