@@ -116,7 +116,7 @@ section a:hover, section a:active {
     color: steelblue;
 }
 .aside{
-    padding: 2px;
+    padding: 0.0025%;
 }
 aside a {
     text-decoration: none;
