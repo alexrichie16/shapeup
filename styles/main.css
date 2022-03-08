@@ -131,6 +131,7 @@ aside h3 {
 .section{
     width: 40%;
     float: right;
+    margin: 10px 0 0 10px;
 }
 .aside a:link, .aside a:visited {
     color: steelblue;
