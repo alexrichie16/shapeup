@@ -10,8 +10,9 @@ header {
     clear: both;
 }
 img{
-    max-width: 100%;
+    width: 100%;
     float: left;
+    min-width: 70px;
 }
 header h2 {
     font-size: 300%;
