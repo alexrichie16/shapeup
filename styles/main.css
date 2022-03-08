@@ -8,7 +8,6 @@ header {
     background: linear-gradient(white, lightsteelblue);
     width: 100%;
     clear: both;
-    size: 200%;
 }
 img{
     width: 100%;
@@ -156,14 +155,6 @@ footer p {
     color: white;
     font-weight: bold;
     text-align: center;
-}
-
-.slicknav_menu{
-    background-color: steelblue;
-}
-
-.slicknav_menu a:hover, .slicknav_menu a:active {
-    color: lightsteelblue;
 }
     
 
