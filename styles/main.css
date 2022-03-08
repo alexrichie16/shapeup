@@ -101,7 +101,10 @@ body {
     color: white;
     background-color: steelblue;
 }
-
+#sidebar{
+    wiwdth: 20%;
+}
+    
 main {
     clear: both;
 }
