@@ -2,7 +2,6 @@ html {
     display: table;
     margin: 0 auto;
     background-image: url("../images/bgtile.jpg");
-    max-width: 1024;
 }
 header {
     border-bottom: 3px solid steelblue;
@@ -27,7 +26,7 @@ header h3 {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    max-width: 1000px;
+    max-width: 1024px;
     width: 100%;
     border: 3px solid steelblue;
     background-color: white;
@@ -81,7 +80,7 @@ body {
     float: left;
 }
 #nav_list h2 {
-    margin-bottom: 5px;
+    margin-bottom: 0.05%;
     text-align: center;
     color: maroon;
 }
@@ -133,7 +132,6 @@ aside h3 {
 .section{
     width: 40%;
     float: right;
-    margin: 10px 0 0 10px;
 }
 .aside a:link, .aside a:visited {
     color: steelblue;
@@ -147,9 +145,9 @@ aside h3 {
 footer {
     clear: both;
     background-color: steelblue;
-    margin-top: 15px;
+    margin-top: 0.1%;
     width: 100%;
-    padding: 15px 0;
+    padding: 0.1% 0;
 }
 footer p {
     color: white;
