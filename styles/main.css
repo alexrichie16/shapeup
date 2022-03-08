@@ -113,15 +113,25 @@ section a:hover, section a:active {
     color: steelblue;
 }
 .aside{
-    width: 29%;
+    width: 20%;
     float: left;
     padding: 2px;
 }
-.aside h3{
+aside a {
+    text-decoration: none;
+}
+aside h3 {
     color: maroon;
+    text-align: center;
+}
+#sidebar{
+    float: left;
+}
+#rightaside{
+    float: right;
 }
 .section{
-    width: 70%;
+    width: 40%;
     float: right;
 }
 .aside a:link, .aside a:visited {
