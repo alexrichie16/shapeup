@@ -2,13 +2,19 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html lang="en" style="background-color:lightsteelblue;">
-<link rel="stylesheet" href="styles/slicknav.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="js/jquery.slicknav.min.js"></script>
 	
 <head>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('#nav_menu').slicknav({prependTo:"#mobilemenu"});
+	});
+	</script>
 	<link rel="stylesheet" href="/styles/main.css">
 	<link rel="stylesheet" href="/styles/normalize.css">
+	<link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
 	<meta charset="utf-8" />
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 	<title>Shape Up!</title>
