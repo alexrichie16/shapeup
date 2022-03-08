@@ -2,6 +2,7 @@ html {
     display: table;
     margin: 0 auto;
     background-image: url("../images/bgtile.jpg");
+    max-width: 1024;
 }
 header {
     border-bottom: 3px solid steelblue;
