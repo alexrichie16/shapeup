@@ -90,6 +90,7 @@ body {
 #nav_list ul li {
     width: 100%;
     margin: 0 auto .5em;
+    float: left;
 }
 #nav_list ul li a {
     display: block;
