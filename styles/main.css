@@ -114,7 +114,6 @@ section a:hover, section a:active {
 }
 .aside{
     width: 20%;
-    float: left;
     padding: 2px;
 }
 aside a {
