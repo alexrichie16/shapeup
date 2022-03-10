@@ -177,29 +177,24 @@ footer p {
     #mobilemenu {
         display: block;
     }
-    /* Format the slicknav */
     .slicknav_menu {
         background-color: steelblue !important;
     }
-    /* Reduce the h2 font size in the header */
     header h2 {
         font-size: 200%;
     }
-    /* Make the page single column by resetting all floats to "none" and fixing width, margins & padding properties */
     section, aside {
         float: none;
         width: 100%;
         margin: 0 auto;
         padding: .5em;
     }
-    /* Un-float the logo image in the header and center it */
     #logoimage {
         float: none;
         padding: .5em;
         display: block;
         margin: 0 auto;
     }
-    /* Center the rest of the header elements */
     header h2, header h3 {
         text-align: center;
     }
