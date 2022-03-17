@@ -172,7 +172,7 @@ footer p {
     #sidebar{
         display: none;
     }
-    section{
+    .section{
         width: 59%;
     }
 }
