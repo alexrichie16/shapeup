@@ -112,6 +112,10 @@ body {
 main {
     clear: both;
 }
+h1 {
+    font-size: 200%;
+    text-shadow: 5px 10px 8px 10px #888888;
+}
 section a:link, section a:visited {
     color: maroon;
 }
@@ -170,11 +174,9 @@ footer p {
 
 @media only screen and (max-width: 767px) {
     
-    /* Hide the horizontal nav_menu */
     #nav_menu {
         display: none;
     }
-    /* Display the slicknav mobilemenu */
     #mobilemenu {
         display: block;
     }
