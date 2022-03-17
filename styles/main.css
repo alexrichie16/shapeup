@@ -112,7 +112,7 @@ body {
 main {
     clear: both;
 }
-h1 {
+main h1 {
     font-size: 200%;
     text-shadow: 5px 10px 8px 10px #888888;
 }
