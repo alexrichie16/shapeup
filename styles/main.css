@@ -38,6 +38,7 @@ body {
 }
 #nav_menu {
     border-bottom: 2px solid steelblue;
+    background-color: blue;
 }
 #nav_menu ul {
     margin: 0;
