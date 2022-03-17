@@ -183,6 +183,9 @@ footer p {
     .slicknav_menu {
         background-color: steelblue !important;
     }
+    h1{
+        font-size: 50%;
+    }
     header h2 {
         font-size: 200%;
     }
