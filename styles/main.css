@@ -161,6 +161,12 @@ footer p {
     font-weight: bold;
     text-align: center;
 }
+blockquote{
+    font: serif;
+    font-size: 120%;
+    width: 80%;
+    margin: 1em 0;
+}
     
 
 
@@ -211,3 +217,4 @@ footer p {
         text-align: center;
     }
 }
+
