@@ -58,7 +58,7 @@ body {
 }
 .containter li a:hover{
     background-color: lightsteelblue;
-    font-color: black;
+    color: black;
 }
 .container ul {
     display: none;
