@@ -48,6 +48,14 @@ body {
 .container li {
     flex: 1;
 }
+.container li a{
+    display: block;
+    padding: .75em 1em;
+    text-decoration: none;
+    color: white;
+    background-color: steelblue;
+    font-weight: bold;
+}
 .container ul {
     display: none;
 }
