@@ -45,6 +45,9 @@ body {
     padding: 0;
     position: relative;
 }
+.container li {
+    flex: 1;
+}
 .container ul {
     display: none;
 }
