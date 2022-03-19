@@ -36,21 +36,23 @@ body {
     padding: 20px;
     clear: both;
 }
-#nav_menu {
+.container {
     border-bottom: 2px solid steelblue;
-    background-color: blue;
+    background-color: steelblue;
+    display: flex;
+    list-style: none;
 }
-#nav_menu ul {
+.container ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    position: relative; 
+    position: relative;
 }
-#nav_menu ul li {
+.container ul li {
     float: left; 
     width: 20%; 
 }
-#nav_menu ul li a {
+.container ul li a {
     display: block;
     text-align: center;
     padding: .7em 0;
@@ -59,24 +61,24 @@ body {
     color: white;
     text-decoration: none;
 }
-#nav_menu ul ul { 
+.container ul ul { 
     display: none; 
     position: absolute; 
     top: 100%; 
     width: 100%;
 }
-#nav_menu ul ul li {
+.container ul ul li {
     float: none; 
 }
-#nav_menu ul li:hover > ul {
+.container ul li:hover > ul {
     display: block;
 }
-#nav_menu > ul::after { 
+.container > ul::after { 
     content: "";
     clear: both;
     display: block;
 }
-#nav_menu ul li a:hover, #nav_menu ul li a:focus { 
+.container ul li a:hover, #nav_menu ul li a:focus { 
     background-color: lightsteelblue;
 }
 #nav_list {
