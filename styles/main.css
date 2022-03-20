@@ -40,9 +40,12 @@ body {
     display: flex;
     list-style: none;
     background-color: steelblue;
+    position: relative;
 }
 .container ul {
     display: none;
+    position: absolute;
+    top: 100%;
 }
 .container li {
     flex: 1;
@@ -58,6 +61,20 @@ body {
 .container li a:hover {
     background-color: lightsteelblue;
     color: black;
+}
+.container ul {
+    width: 20%;
+    list-style: none;
+}
+.container ul li {
+    flex-direction: column;
+}
+.container ul li a {
+    text-align: left;
+    padding-left: 1em;
+}
+.container li:hover > ul {
+    display: block;
 }
 #nav_list {
     float: left;
