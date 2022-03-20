@@ -91,7 +91,9 @@ body {
     width: 100%;
 }
 .container ul ul li {
-    float: none; 
+    float: left;
+    clear: both;
+    
 }
 .container ul li:hover > ul {
     display: block;
