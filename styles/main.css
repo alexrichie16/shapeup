@@ -36,19 +36,18 @@ body {
     padding: 20px;
     clear: both;
 }
-.container {
-    border-bottom: 2px solid steelblue;
-    background-color: steelblue;
+.container { 
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
+    background-color: steelblue;
+}
+.container ul {
+    display: none;
 }
 .container li {
     flex: 1;
 }
-.container li a{
+.container li a {
     display: block;
     padding: .75em 1em;
     text-decoration: none;
@@ -56,55 +55,9 @@ body {
     background-color: steelblue;
     font-weight: bold;
 }
-.containter li a:hover{
+.container li a:hover {
     background-color: lightsteelblue;
     color: black;
-}
-.container ul {
-    display: none;
-    width: 20%;
-    list-style: none;
-    position: absolute;
-    top: 100%;
-}
-.container ul li {
-    float: left; 
-    width: 20%;
-    flex-direction: column;
-}
-.container li:hover > ul{
-    display: block;
-}
-.container ul li a {
-    display: block;
-    text-align: center;
-    padding: .7em 0;
-    background-color: steelblue;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-}
-.container ul ul { 
-    display: none; 
-    position: absolute; 
-    top: 100%; 
-    width: 100%;
-}
-.container ul ul li {
-    float: left;
-    clear: both;
-    
-}
-.container ul li:hover > ul {
-    display: block;
-}
-.container > ul::after { 
-    content: "";
-    clear: both;
-    display: block;
-}
-.container ul li a:hover, #nav_menu ul li a:focus { 
-    background-color: lightsteelblue;
 }
 #nav_list {
     float: left;
