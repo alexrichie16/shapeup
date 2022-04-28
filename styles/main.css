@@ -168,9 +168,13 @@ blockquote{
 
 
 @media only screen and (max-width: 900px) {
+    html{
+        background-image: none;
+    }
     body{
         box-shadow: none;
         font-size: 90%;
+        border: none;
     }
     #sidebar{
         display: none;
